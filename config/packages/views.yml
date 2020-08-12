@@ -1,0 +1,10 @@
+
+ezpublish:
+    system:
+        site:
+            content_view:
+                full:
+                    blog_post:
+                        controller: App\Controller\BlogPostController:index
+                        match:
+                            Identifier\ContentType: 'blog_post'

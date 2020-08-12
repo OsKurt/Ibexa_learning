@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<h1>{{ ez_render_field( content, 'title' ) }}</h1>
+
+{{ ez_render_field( content, 'post' ) }}
+
+{% endblock %}
